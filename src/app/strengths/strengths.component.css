@@ -1,0 +1,29 @@
+/* src/app/strengths/strengths.component.css */
+.strengths {
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    margin-bottom: 15px; /* Space between sections */
+    border-radius: 5px; /* Slightly rounded corners */
+    background-color: #f9f9f9; /* Very light background */
+  }
+  
+  .strengths h2 {
+    color: #28a745; /* Green color for strengths */
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .strengths ul {
+    list-style: disc; /* Use bullet points */
+    padding-left: 20px;
+  }
+  
+  .strengths li {
+    margin-bottom: 5px;
+    color: #495057;
+  }
+  
+  .strengths p {
+    font-style: italic;
+    color: #6c757d; /* Gray italic text */
+  }

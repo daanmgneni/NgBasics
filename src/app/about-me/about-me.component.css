@@ -1,0 +1,27 @@
+/* src/app/about-me/about-me.component.css */
+
+.container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  h2 {
+    color: #007acc;
+  }
+  
+  .contact {
+    margin-top: 1.5rem;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  

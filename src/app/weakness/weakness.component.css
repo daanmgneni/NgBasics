@@ -1,0 +1,29 @@
+/* src/app/weakness/weakness.component.css */
+.weaknesses {
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border */
+    margin-bottom: 15px; /* Space between sections */
+    border-radius: 5px; /* Slightly rounded corners */
+    background-color: #f9f9f9; /* Very light background */
+  }
+  
+  .weaknesses h2 {
+    color: #dc3545; /* Red color for weaknesses/areas for improvement */
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .weaknesses ul {
+    list-style: disc; /* Use bullet points */
+    padding-left: 20px;
+  }
+  
+  .weaknesses li {
+    margin-bottom: 5px;
+    color: #495057;
+  }
+  
+  .weaknesses p {
+    font-style: italic;
+    color: #6c757d; /* Gray italic text */
+  }

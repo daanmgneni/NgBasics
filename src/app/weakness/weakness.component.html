@@ -1,0 +1,7 @@
+<section class="weaknesses">
+    <h2 *ngIf="myWeaknesses.length > 0">Areas for Improvement</h2>
+    <ul *ngIf="myWeaknesses.length > 0">
+      <li *ngFor="let weakness of myWeaknesses">{{ weakness }}</li>
+    </ul>
+    <p *ngIf="myWeaknesses.length === 0">Currently, I don't perceive any significant weaknesses.</p>
+  </section>

@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+  }
+  
+  .main-content {
+    display: flex;
+    flex-grow: 1; /* Allow main content to grow and push footer down */
+  }
+  
+  .content {
+    flex-grow: 1; /* Allow content area to take remaining horizontal space */
+    padding: 20px;
+  }

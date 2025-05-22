@@ -1,0 +1,32 @@
+/* src/app/left-margin/left-margin.component.css */
+.left-margin {
+  width: 200px;
+  background-color: #e9ecef; /* Light background color */
+  padding: 15px;
+  border-right: 1px solid #ccc; /* Subtle right border */
+}
+
+.left-margin h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #495057; /* Darker text color */
+}
+
+.left-margin ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.left-margin li {
+  margin-bottom: 8px;
+}
+
+.left-margin li a {
+  text-decoration: none;
+  color: #007bff; /* Link color */
+}
+
+.left-margin li a:hover {
+  text-decoration: underline;
+}

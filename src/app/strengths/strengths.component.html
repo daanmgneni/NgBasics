@@ -1,0 +1,7 @@
+<section class="strengths">
+    <h2 *ngIf="myStrengths.length > 0">My Strengths</h2>
+    <ul *ngIf="myStrengths.length > 0">
+      <li *ngFor="let strength of myStrengths">{{ strength }}</li>
+    </ul>
+    <p *ngIf="myStrengths.length === 0">I am currently reflecting on my strengths.</p>
+  </section>
