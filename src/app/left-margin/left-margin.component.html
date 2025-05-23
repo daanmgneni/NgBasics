@@ -1,6 +1,11 @@
 <aside class="left-margin">
-    <h3>{{ marginTitle }}</h3>
-    <ul>
-      <li *ngFor="let link of navigationLinks">{{ link }}</li>
-    </ul>
-  </aside>
+  <h3>{{ marginTitle }}</h3>
+  <ul>
+    <li><a routerLink="/strengths" routerLinkActive="active-link">Strengths</a></li>
+    <li><a routerLink="/weaknesses" routerLinkActive="active-link">Weaknesses</a></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</aside>

@@ -1,10 +1,12 @@
 <div class="container">
   <app-header></app-header>
   <div class="main-content">
-    <app-left-margin></app-left-margin>
+    <div class="left-margin-container">
+      <app-left-margin></app-left-margin>
+    </div>
     <div class="content">
-      <app-strengths></app-strengths>
-      <app-weakness></app-weakness>
+      <router-outlet></router-outlet>
+      <app-task></app-task>
     </div>
   </div>
   <app-footer></app-footer>

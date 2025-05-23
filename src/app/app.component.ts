@@ -6,6 +6,8 @@ import { StrengthsComponent } from './strengths/strengths.component';
 import { WeaknessComponent } from './weakness/weakness.component';
 import { LeftMarginComponent } from './left-margin/left-margin.component';
 import { CommonModule } from '@angular/common';
+import { TaskComponent } from './task/task.component';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -17,7 +19,9 @@ import { CommonModule } from '@angular/common';
     StrengthsComponent,
     WeaknessComponent,
     LeftMarginComponent,
-    CommonModule // Make sure CommonModule is also imported if needed
+    CommonModule,
+    RouterOutlet,
+    TaskComponent // Make sure CommonModule is also imported if needed
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

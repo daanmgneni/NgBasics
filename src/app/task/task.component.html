@@ -1,0 +1,5 @@
+<div class="task-component">
+  <h3>Enter a Task:</h3>
+  <input type="text" [(ngModel)]="taskDescription" placeholder="Describe your task">
+  <p *ngIf="taskDescription">You entered: <strong>{{ taskDescription }}</strong></p>
+</div>
